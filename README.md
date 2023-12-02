@@ -12,4 +12,7 @@ This page also includes the back to top button.
 Finally, for the about.html, it is the about page of the company. Mentioning the about, mission and commitment to quality pledged by the company. 
 This page also includes the back to top button.
 
-In all 3 pages, i found the goldfish background with the message "
+In all 3 pages, i found the goldfish background with the message "premium goldfish at your fingertips" aesthetically pleasing, hence i chose to keep it.
+The 3 buttons for guide,products and about us are located at the top right side of the screen for easy navigation.
+
+The company logo is located at the top right of the pages.
