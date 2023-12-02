@@ -1,0 +1,426 @@
+/* go back top button css */
+
+.go-top-btn {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border: 3px solid #333;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  /* go back top button css image*/
+  .go-top-btn img {
+    width: 50px;
+    height: 50px;
+    transform: rotate(-90deg);
+  }
+
+/* layout of the header */
+.brand {
+    display: flex;
+    height: 170px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 27%; 
+}
+
+.search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #06373d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* more layout for header */
+.brand img {
+    display: flex;
+    height: 150px;
+}
+
+
+.brand h1 {
+    display: flex;
+    align-items: center;
+}
+
+.brand ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.brand nav {
+    margin-left: auto; 
+    justify-content: space-between;
+}
+
+.brand li {
+    margin-right: 20px;
+}
+
+/* background of website */
+
+.banner {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(Images/banner.png);
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.banner h2 {
+
+    color: rgb(211, 211, 224);
+
+}
+
+/* Goldfish Studio's main logo */
+
+
+  
+  .logo {
+    width: 500px;
+    cursor: pointer;
+  }
+
+
+header, nav {
+    background-color: #09343a;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+main {
+    background-color: #f7fafa;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+
+/* footer */
+footer {
+    background-color: #06373d;
+    color: white;
+    text-align: center;
+    flex-shrink: 0;
+    outline: none;
+}
+
+/* Slider */
+.sliderproducts {
+    background-color: #feffff;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .product-category {
+    color: rgb(3, 3, 3);
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    height: 525px;
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 90px;
+}
+
+  /* image size */
+  .product-image {
+    position: relative;
+    width: 120%;
+    height: 350px;
+    overflow: hidden;
+  }
+  /* thumbnail size */
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* discount tag for slider */
+  .discount-tag {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+  /* highlight over hover buttons */
+  .card-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .product-card:hover .card-button {
+    opacity: 1;
+  }
+  
+  .card-button:hover {
+    background: rgb(55, 217, 238);
+    color: #000000;
+  }
+  
+  .product-info {
+    color: rgb(3, 3, 3);
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+  }
+  
+  .product-brand {
+    text-transform: uppercase;
+  }
+  
+  .product-short-desc {
+    color: rgb(3, 3, 3);
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+  }
+  /* nett price */
+  .price {
+    color: rgb(3, 3, 3);
+    font-weight: 900;
+    font-size: 20px;
+  }
+  /* discounted price */
+  .actual-price {
+    color: rgb(3, 3, 3);
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  /* the left right arrows defining the carousel movement */
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+
+
+
+/* goldfish other products section, same implementation different values*/
+  .new-product-category {
+    color: rgb(3, 3, 3);
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.new-container {
+    height: 950px;
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.new-container::-webkit-scrollbar {
+    display: none;
+}
+
+.new-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 525px;
+    margin-right: 200px;
+}
+
+.new-image {
+    position: relative;
+    width: 100%;
+    height: 525px;
+    overflow: hidden;
+    border-radius: 5px;
+    border-color: #000000;
+}
+
+.new-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.new-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border:#000000;
+    outline:#06373d;
+    background: #fcfafa;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .new-card:hover .new-button {
+    opacity: 1;
+  }
+  
+  .new-button:hover {
+    background: rgb(55, 217, 238);
+    color: #000000;
+  }
+
+
+.new-price {
+    color: rgb(3, 3, 3);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.new-actual-price {
+    color: rgb(3, 3, 3);
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+
+/* for about.html */
+  .about-us {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1000px; 
+    text-align: center; 
+    margin: auto;
+}
+/* for guide.html */
+.guide {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1600px; 
+    margin: auto;
+}
+
+/* image size */
+.guide img {
+width: 300px;
+height: 300px;
+}
